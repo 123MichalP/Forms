@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+
+<head>
+
+<meta charset="utf-8">
+<title>Formularz 5</title>
+<link rel="stylesheet" type="text/css" href="style5.css">
+
+</head>
+
+<body>
+<nav>
+	<div class="nav" id="left">Formularze</div>
+	<div class="nav"><a href="Form6.html">Formularz 6</a></div>
+	<div class="nav" id="now"><a href="Form5.html">Formularz 5</a></div>
+	<div class="nav"><a href="Form4.html">Formularz 4</a></div>
+	<div class="nav"><a href="Form3.html">Formularz 3</a></div>
+	<div class="nav"><a href="Form2.html">Formularz 2</a></div>
+	<div class="nav"><a href="Form1.html">Formularz 1</a></div>
+</nav>
+<form>
+<div class="eag" id="yag">
+<h1>Dane osobowe</h1>
+<div class="form">Nazwisko: <br /><br />Imię:<br /><br />Email:<br /><br />Numer telefonu:<br /><br />Data urodzenia:<br /><br /></div>
+<div class="form">
+<input type = "text" name = "Nazwisko" required class="gae" /><br />
+<input type = "text" name = "imię" required class="gae" /><br />
+<input type = "email" name = "email" placeholder="Wpisz adres email" class="gae"/><br />
+<input type = "number" name = "tel" maxlength="9"  class="gae"/><br />
+<input type = "date" name = "date"  class="gae"/><br />
+</div>
+</div>
+<br />
+<div class="eag">
+<h1>Dane  logowania</h1>
+<div class="form">ID użytkownika: <br /><br /><br />Hasło: <br /><br /></div>
+<div class="form">
+<input type = "text" name = "user_id"  class="gae" />
+<br /><br />
+<input type = "password" name = "password"   class="gae"/>
+<br /><br /><br />
+</div>
+</div>
+
+<div class="eag">
+<h1>Dodatkowe informacje</h1>
+<div class="form">
+W jakim języku/językach programujesz?<br />
+<input type = "checkbox" name = "PhP" value ="on"> PhP<br />
+<input type = "checkbox" name = "JavaScript" value ="on"> JavaScript<br />
+<input type = "checkbox" name = "Python" value = "on"> Python<br />
+<input type = "checkbox" name = "C++" value = "on"> C++<br />
+<input type = "checkbox" name = "Java" value = "on"> Java<br /><br />
+Ulubiony kolor: <br /><input type="color" name="color"> <br /><br />
+</div>
+<div class="form">
+Wybierz język/języki <br />
+<select name="dropdown" multiple class="gae">
+	<option value="Język angielski">Język angielski</option>
+	<option value="Język niemiecki">Język niemiecki</option>
+	<option value="Język hiszpański">Język hiszpański</option>
+	<option value="Język francuski">Język francuski</option>
+	<option value="Język włoski">Język włoski</option>
+</select>
+<br /><br /><br />
+Wiek:<br />
+<select name= "wiek" class="gae">
+<option value = "0" hidden>0-17</option>
+<option value = "1">1</option>
+<option value = "2">2</option>
+<option value = "3">3</option>
+<option value = "4">4</option>
+<option value = "5">5</option>
+<option value = "6">6</option>
+<option value = "7">7</option>
+<option value = "8">8</option>
+<option value = "9">9</option>
+<option value = "10">10</option>
+<option value = "11">11</option>
+<option value = "12">12</option>
+<option value = "13">13</option>
+<option value = "14">14</option>
+<option value = "15">15</option>
+<option value = "16">16</option>
+<option value = "17">17</option>
+</select><br /><br />
+</div>
+<br />
+<br />
+</div>
+
+<div id="Cent">
+<input type = "checkbox" name = "Dane" value = "on" required>Zgadzam się na przetwarzanie moich danych osobowych
+</div>
+<br />
+<br />
+
+<input type = "submit" name = "wyślij" value = "Wyślij" class="button"/>
+
+<input type = "reset" name = "wyczyść" value = "Wyczyść" class="button"/>
+</form>
+<footer>Michał Popieko</footer>
+</body>
+
+</html>
+
